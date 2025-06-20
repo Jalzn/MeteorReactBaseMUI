@@ -80,6 +80,7 @@ const SysAppBar: React.FC<ISysAppBarController> = ({
         getOpcoesMenuMobile
     };
 
+
     return (
         <Context.Provider value={providerValue}>
             <SysAppBarView logo={logo} />

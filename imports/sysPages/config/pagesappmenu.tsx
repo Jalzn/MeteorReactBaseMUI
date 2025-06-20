@@ -7,10 +7,5 @@ export const pagesMenuItemList: (IAppMenu | null)[] = [
 		path: '/',
 		name: 'Início',
 		icon: <SysIcon name={'home'} />
-	},
-	{
-		path: '/sysFormTests',
-		name: 'SysForm Playground',
-		icon: <SysIcon name={'science'} />
 	}
 ];
